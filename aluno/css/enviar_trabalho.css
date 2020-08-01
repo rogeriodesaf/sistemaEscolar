@@ -1,0 +1,36 @@
+#box{
+	width:380px;
+	height:120px;
+	font:15px Arial, Helvetica, sans-serif;
+	}
+#box table{
+	font:15px Arial, Helvetica, sans-serif;
+	padding:5px;
+	border:2px solid #999;
+	}
+#box h1{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:0;
+	color:#00F;
+	}
+#box input{
+	font:11px Arial, Helvetica, sans-serif;
+	margin:0;
+	color:#00F;
+	}
+#box .input{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:0;
+	background:#039;
+	padding:5px;
+	color:#FFF;
+	cursor:pointer;
+	border:1px solid #CCC;
+	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	}
+#box .input:hover{
+	background:#069;
+	}

@@ -1,0 +1,42 @@
+#box{
+	font:15px Arial, Helvetica, sans-serif;
+	}
+#box table{
+	border:2px solid #F90;
+	padding:10px;
+	font:15px Arial, Helvetica, sans-serif;
+	}
+#box input{
+	border:1px solid #CCC;
+	padding:5px;
+	height:20px;
+	width:250px;
+	color:#F90;
+	font:15px Arial, Helvetica, sans-serif;
+	}
+#box textarea{
+	border:1px solid #CCC;
+	padding:5px;
+	height:80px;
+	width:783px;
+	color:#F90;
+	font:15px Arial, Helvetica, sans-serif;
+	}	
+#box select{
+	border:1px solid #CCC;
+	padding:5px;
+	height:32px;
+	width:260px;
+	color:#F90;
+	font:15px Arial, Helvetica, sans-serif;
+	}
+#box .input{
+	border:1px solid #CCC;
+	padding:5px;
+	height:40px;
+	width:90px;
+	background:#090;
+	color:#FFF;
+	cursor:pointer;
+	font:15px Arial, Helvetica, sans-serif;
+	}

@@ -1,0 +1,51 @@
+#caixa_preta{
+	background:#000;
+	width:980px;
+	margin:18px auto;
+	height:15px;
+	}
+#box{
+	width:978px;
+	background:#069;
+	height:auto;
+	margin:-20px auto;
+	border:1px solid #333;
+	}
+#box h1{
+	font:25px Arial, Helvetica, sans-serif;
+	margin:10px;
+	color:#FF0;
+	}
+#box h2{
+	font:15px Arial, Helvetica, sans-serif;
+	margin:10px;
+	color:#FFF;
+	}
+#box table{
+	margin:10px;
+	width:950px;
+	padding:5px;
+	font:15px Arial, Helvetica, sans-serif;
+	background:#FFF;
+	border:2px solid #0CF;
+	}
+#box table img{
+	width:940px;
+	}
+#box table h2{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#00F;
+	margin:0;
+	}
+#box table a{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#F00;
+	}
+#box table a:hover{
+	text-decoration:none;
+	}
+#box h4{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#CCC;
+	margin:10px;
+	}

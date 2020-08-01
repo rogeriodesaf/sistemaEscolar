@@ -1,0 +1,100 @@
+#caixa_preta{
+	background:#000;
+	width:980px;
+	margin:11px auto;
+	height:15px;
+	}
+#box{
+	width:978px;
+	height:auto;
+	margin:-20px auto;
+	border:1px solid #333;
+	font:12px Arial, Helvetica, sans-serif;
+	margin:-17px auto 20px auto;
+	}
+#box h1{
+	font:18px Arial, Helvetica, sans-serif;
+	color:#000;
+	margin:10px;
+	}
+#box table{
+	font:15px Arial, Helvetica, sans-serif;
+	color:#000;
+	margin:10px;
+	border:1px solid #666;
+	padding:5px;
+	}
+#box table a{
+	font:12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#00F;
+	margin:0 20px 0 20px;
+	}
+#box table a:hover{
+	text-decoration:underline;
+	}
+#box ul{
+	list-style-image:url(../img/download.jpg);
+	}
+	
+#box_baixa{
+	width:250px;
+	height:200px;
+	margin:0;
+	border:1px solid #333;
+	font:12px Arial, Helvetica, sans-serif;
+	}
+#box_baixa h1{
+	font:15px Arial, Helvetica, sans-serif;
+	margin:10px;
+	}
+#box_baixa select{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:0 0 0 10px;
+	width:230px;
+	height:30px;
+	padding:5px;
+	}
+#box_baixa .select{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:5px 0 0 10px;
+	width:100px;
+	height:38px;
+	padding:5px;
+	background:#006;
+	color:#FFF;
+	border:1px solid #CCC;
+	cursor:pointer;
+	}
+
+	
+#box_baixa{
+	width:300px;
+	height:120px;
+	margin:0;
+	border:1px solid #333;
+	font:12px Arial, Helvetica, sans-serif;
+	}
+#box_baixa h1{
+	font:15px Arial, Helvetica, sans-serif;
+	margin:10px;
+	}
+#box_baixa input{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:0 0 0 10px;
+	width:200px;
+	height:20px;
+	padding:5px;
+	}
+#box_baixa .select{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:5px 0 0 10px;
+	width:100px;
+	height:38px;
+	padding:5px;
+	background:#006;
+	color:#FFF;
+	border:1px solid #CCC;
+	cursor:pointer;
+	}
+

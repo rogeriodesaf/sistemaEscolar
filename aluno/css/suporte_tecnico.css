@@ -1,0 +1,112 @@
+#caixa_preta{
+	background:#000;
+	width:980px;
+	margin:18px auto;
+	height:15px;
+	}
+#box{
+	width:978px;
+	background:#FFF;
+	height:auto;
+	margin:-20px auto;
+	border:1px solid #333;
+	}
+#box h1{
+	font:25px Arial, Helvetica, sans-serif;
+	margin:10px;
+	color:#999;
+	}
+#box .a_1{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:10px;
+	color:#CCC;
+	padding:10px;
+	background:#036;
+	text-decoration:none;
+	}
+#box .a_1:hover{
+	background:#006;
+	color:#FFF;
+	}
+#box table{
+	margin:10px;
+	width:918px;
+	padding:5px;
+	font:15px Arial, Helvetica, sans-serif;
+	background:#FFF;
+	border:2px solid #333;
+	}
+#box table textarea{
+	width:915px;
+	height:50px;
+	padding:10px;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#999;
+	border:1px solid #666;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	}
+#box table select{
+	width:935px;
+	height:35px;
+	padding:5px;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#999;
+	margin:5px 0 3px 0;
+	border:1px solid #666;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	}
+#box table .input{
+	width:100px;
+	height:40px;
+	padding:5px;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#999;
+	cursor:pointer;
+	margin:5px 0 3px 0;
+	border:1px solid #666;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	}
+#box table .img{
+	width:940px;
+	}
+#box table h2{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#00F;
+	}
+#box table h3{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#F00;
+	}
+#box h4{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#CCC;
+	margin:10px;
+	}
+#box .h4{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#CCC;
+	margin:10px;
+	}	
+#box .h1{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#CCC;
+	padding:5px;
+	background:#333;
+	margin:10px;
+	}
+#box .h2{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#CCC;
+	padding:5px;
+	background:#666;
+	margin:10px;
+	}
