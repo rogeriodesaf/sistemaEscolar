@@ -50,6 +50,21 @@ if(mysqli_num_rows($sql_1) == ''){
 }
 ?>
 
+<?php
+$sql_1 = mysqli_query($conexao, "SELECT * FROM funcionarios WHERE code = '$q'");
+if(mysqli_num_rows($sql_1)== ''){
+	echo "<h2>Não foi encontrado funcionário.</h2>";
+} else{
+	while($res_1 = mysqli_fetch_assoc($sql_1)){
+		echo"<li><a rel='superbox[iframe][970x270]'href='mostrar_resultado.php?q=$q&s=funcionario'><strong>Informações gerais sobre o funcionário</strong><a></li>";
+		
+	}
+}
+
+
+
+?>
+
 </ul>
 </div><!-- box -->
 

@@ -10,10 +10,38 @@
 <body>
 
 <div id="box">
+<?php if(@$_GET['s'] == 'funcionario'){ ?>
+  <?php 
+  $q = $_GET['q'];
+  $sql_1 = mysqli_query($conexao, "SELECT * FROM  funcionarios WHERE code = '$q'");
+  while($res_1 = mysqli_fetch_assoc($sql_1)){
+    ?>
+  
+  <table width="750" border="0">
+  <tr>
+    <td colspan="3"><h1>Informações sobre este funcionário</h1></td>
+  </tr>
+  <tr>
+    <td><strong>Nome:</strong></td>
+    <td><strong>CPF</strong></td>
+    <td><strong>Data de nascimento:</strong></td>
+  </tr>
+  <tr>
+    <td><?php echo $res_1['nome']; ?></td>
+     <td><?php echo $res_1['cpf']; ?></td>
+    <td><?php echo $res_1['nascimento'];?></td>
+  </tr>
+  
+    <td>&nbsp;</td>
+  
+</table>
+  
+  
+  <?php } ?>
 <?php if(@$_GET['s'] == 'professor'){ ?>
 <?php
 $q = $_GET['q'];
-$sql_1 = mysqli_query($conexao, "SELECT * FROM professores WHERE code = '$q'");
+$sql_1 = mysqli_query($conexao, "SELECT * FROM professores WHERE code = '$q' ");
 	while($res_1 = mysqli_fetch_assoc($sql_1)){
 ?>
 <table width="750" border="0">
@@ -622,7 +650,10 @@ $sql_2 = mysqli_query($conexao, "SELECT * FROM estudantes WHERE code = '$matricu
 <?php }} ?>
 
 
-<?php } ?>
+
+
+
+  
 </div><!--box  -->
 
 </body>
