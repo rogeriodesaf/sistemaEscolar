@@ -53,7 +53,7 @@ $result = mysqli_query($conexao, $sql_aluno);
 <div id="box_topo">
  
  <div id="logo">
-  <img src="../img/logo.png" width="300" />
+  <img src="../img/logo1.jpg" width="200" />
  </div><!-- logo -->
  
  <div id="dados_aluno">

@@ -77,7 +77,7 @@ body{
 	}
 #menu_topo ul li a{
 	float:left;
-	color:#FFF;
+	color:rgb(218, 16, 16);
 	font:15px Arial, Helvetica, sans-serif;
 	margin:0px 110px 0 0;
 	padding:10px 0 10px 0;
@@ -88,7 +88,7 @@ body{
 	margin:0px 0 0 -38px;
 	}
 #menu_topo ul li a:hover{
-	color:#FF0;
+	color:rgb(141, 11, 124);
 	}
 #menu_topo img{
 	margin:-0px 0 0 0;

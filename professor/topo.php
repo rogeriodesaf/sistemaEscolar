@@ -43,7 +43,7 @@
 <div id="box_topo">
  
  <div id="logo">
-  <img src="../img/logo.png" width="250" />
+  <img src="../img/logo1.jpg" width="190" />
  </div><!-- logo -->
  
  <div id="campo_busca">

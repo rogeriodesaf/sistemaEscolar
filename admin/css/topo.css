@@ -3,10 +3,10 @@ body{
 	margin:0;
 	}
 #box_topo{
-	width:1200px;
+	width:1100px;
 	height:200px;
 	margin:-10px auto;
-	background: rgb(68, 139, 167);
+	background: rgb(54, 110, 105);
 	}
 	
 #logo{
@@ -52,13 +52,14 @@ body{
 #mostra_login h1{
 	float:left;
 	font:15px Arial, Helvetica, sans-serif;
-	color: aliceblue;
+	color:rgb(235, 235, 245);
+	margin:0 0 0 10px;
 	}
 #mostra_login a{
 	margin:0 0 0 30px;
 	}
 #mostra_login a:hover{
-	color:rgb(0, 28, 59);
+	color:rgb(200, 204, 182);
 	}
 #box_menu{
 	width:auto;
@@ -91,7 +92,7 @@ body{
 	margin:0px 0 0 -38px;
 	}
 #menu_topo ul li a:hover{
-	background:rgb(10, 0, 99);
+	background:rgb(19, 7, 121);
 	}
 #menu_topo img{
 	float:left;
@@ -108,13 +109,13 @@ body{
 	}
 #menu_topo li ul a{
 	width:160px;
-	background:#001e57;
+	background:#11083b;
 	text-transform:none;
 	padding:10px 10px 10px 10px;
 	margin:-16px 0px 17px -40px;
 	border-radius:3px;
 	}
 #menu_topo li ul a:hover{
-	background:rgb(7, 1, 46);
+	background:rgb(7, 5, 156);
 	color:#FF0;
 	}

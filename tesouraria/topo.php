@@ -92,6 +92,35 @@ echo $nome; ?></strong> <strong><a href="../config.php?pg=sair">Sair</a></strong
 </div><!-- box_topo -->
 
 </div><!-- cobre_tudo -->
+<div id="box_menu">
+<div id="menu_topo">
+  <ul>
+   <img src="img/separador_menu.png" />
+   <li><a href="index.php">HOME</a></li>
+   <img src="img/separador_menu.png" />
+   
+      
+   <img src="img/separador_menu.png" />
+   <li><a href="estudantes.php?pg=todos">ESTUDANTES</a></li>
+   <img src="img/separador_menu.png" />
+   <li><a href="setor_financeiro.php">SETOR FINANCEIRO</a></li>
+   <img src="img/separador_menu.png" />
+   
+   <img src="img/separador_menu.png" />
+   <li><a href="suporte_tecnico.php">SUPORTE TECNICO</a></li>
+   <img src="img/separador_menu.png" />
+   
+    </ul>
+   </li>
+   <img src="img/separador_menu.png" />   
+  </ul>
+ </div><!-- menu_topo -->
+
+ 
+ </div><!-- menu_topo -->
+
+</div><!-- box_menu -->
+
 
 </body>
 </html>
